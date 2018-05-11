@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE2D237A20A5D0C200D0C9AD /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D237920A5D0C200D0C9AD /* Meme.swift */; };
+		DE6B72E120A0959000087FCA /* MemeGenerator_120 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6B72D820A0959000087FCA /* MemeGenerator_120 copy.png */; };
+		DE6B72E420A0959000087FCA /* MemeGenerator_180 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6B72DB20A0959000087FCA /* MemeGenerator_180 copy.png */; };
 		DE772A4C20861ED400D3BFCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE772A4B20861ED400D3BFCE /* AppDelegate.swift */; };
-		DE772A4E20861ED400D3BFCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE772A4D20861ED400D3BFCE /* ViewController.swift */; };
+		DE772A4E20861ED400D3BFCE /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE772A4D20861ED400D3BFCE /* EditorViewController.swift */; };
 		DE772A5120861ED400D3BFCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE772A4F20861ED400D3BFCE /* Main.storyboard */; };
 		DE772A5320861EDB00D3BFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE772A5220861EDB00D3BFCE /* Assets.xcassets */; };
 		DE772A5620861EDB00D3BFCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE772A5420861EDB00D3BFCE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE2D237920A5D0C200D0C9AD /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		DE6B72D820A0959000087FCA /* MemeGenerator_120 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MemeGenerator_120 copy.png"; sourceTree = "<group>"; };
+		DE6B72DB20A0959000087FCA /* MemeGenerator_180 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MemeGenerator_180 copy.png"; sourceTree = "<group>"; };
 		DE772A4820861ED400D3BFCE /* simpleImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE772A4B20861ED400D3BFCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE772A4D20861ED400D3BFCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE772A4D20861ED400D3BFCE /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
 		DE772A5020861ED400D3BFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE772A5220861EDB00D3BFCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE772A5520861EDB00D3BFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +44,7 @@
 		DE772A3F20861ED400D3BFCE = {
 			isa = PBXGroup;
 			children = (
+				DE2D237920A5D0C200D0C9AD /* Meme.swift */,
 				DE772A4A20861ED400D3BFCE /* simpleImagePicker */,
 				DE772A4920861ED400D3BFCE /* Products */,
 			);
@@ -55,9 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				DE772A4B20861ED400D3BFCE /* AppDelegate.swift */,
-				DE772A4D20861ED400D3BFCE /* ViewController.swift */,
+				DE772A4D20861ED400D3BFCE /* EditorViewController.swift */,
 				DE772A4F20861ED400D3BFCE /* Main.storyboard */,
 				DE772A5220861EDB00D3BFCE /* Assets.xcassets */,
+				DE6B72D820A0959000087FCA /* MemeGenerator_120 copy.png */,
+				DE6B72DB20A0959000087FCA /* MemeGenerator_180 copy.png */,
 				DE772A5420861EDB00D3BFCE /* LaunchScreen.storyboard */,
 				DE772A5720861EDB00D3BFCE /* Info.plist */,
 			);
@@ -122,9 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6B72E120A0959000087FCA /* MemeGenerator_120 copy.png in Resources */,
 				DE772A5620861EDB00D3BFCE /* LaunchScreen.storyboard in Resources */,
 				DE772A5320861EDB00D3BFCE /* Assets.xcassets in Resources */,
 				DE772A5120861ED400D3BFCE /* Main.storyboard in Resources */,
+				DE6B72E420A0959000087FCA /* MemeGenerator_180 copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE772A4E20861ED400D3BFCE /* ViewController.swift in Sources */,
+				DE2D237A20A5D0C200D0C9AD /* Meme.swift in Sources */,
+				DE772A4E20861ED400D3BFCE /* EditorViewController.swift in Sources */,
 				DE772A4C20861ED400D3BFCE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
