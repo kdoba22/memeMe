@@ -12,8 +12,12 @@
 	<string>need access to save meme in photo roll</string>
 	<key>NSCameraUsageDescription</key>
 	<string>access camera for meme app</string>
+	<key> Privacy- Photo Library</key>
+	<string>need access for thr meme</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>Privacy- Photo Library Usage Description.</key>
+	<string>used for meme app</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>

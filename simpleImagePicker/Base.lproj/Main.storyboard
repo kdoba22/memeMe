@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l2c-AA-OhR">
-                                <rect key="frame" x="50" y="50" width="275" height="587"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="603"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="amY-sB-60Z" userLabel="bottomToolBar">
-                                <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="zea-zm-59v"/>
+                                    <constraint firstAttribute="height" constant="44" id="zea-zm-59v"/>
                                 </constraints>
                                 <items>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="DXB-d5-PCF"/>
@@ -38,7 +38,7 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="z3k-g9-idh"/>
                                     <barButtonItem style="plain" id="mP3-aV-ud0">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CZi-yt-Onz">
-                                            <rect key="frame" x="263" y="0.0" width="54" height="30"/>
+                                            <rect key="frame" x="263" y="7" width="54" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Camera"/>
                                             <connections>
@@ -50,27 +50,27 @@
                                 </items>
                             </toolbar>
                             <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rXC-5y-O0q" userLabel="topText">
-                                <rect key="frame" x="0.0" y="94" width="375" height="30"/>
+                                <rect key="frame" x="0.0" y="108" width="375" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                             </textField>
                             <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lXR-CD-2vS" userLabel="bottomText">
-                                <rect key="frame" x="0.0" y="607" width="375" height="30"/>
+                                <rect key="frame" x="0.0" y="593" width="375" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                             </textField>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXH-cQ-dI6" userLabel="topToolbar">
-                                <rect key="frame" x="0.0" y="20" width="375" height="30"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Km4-5z-C2z"/>
+                                    <constraint firstAttribute="height" constant="44" id="Km4-5z-C2z"/>
                                 </constraints>
                                 <items>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="N7O-VN-F3x"/>
-                                    <barButtonItem title="Share" id="PGS-uX-KGX">
+                                    <barButtonItem systemItem="action" id="PGS-uX-KGX">
                                         <connections>
                                             <action selector="shareAction:" destination="BYZ-38-t0r" id="MlG-zy-v97"/>
                                         </connections>
@@ -87,17 +87,17 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="l2c-AA-OhR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="9PI-7X-WGI"/>
+                            <constraint firstItem="l2c-AA-OhR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9PI-7X-WGI"/>
                             <constraint firstItem="rXC-5y-O0q" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RYq-hy-0QV"/>
                             <constraint firstItem="lXR-CD-2vS" firstAttribute="bottom" secondItem="amY-sB-60Z" secondAttribute="top" id="SY1-ZE-8eC"/>
                             <constraint firstItem="sXH-cQ-dI6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TVT-sU-GhZ"/>
                             <constraint firstItem="lXR-CD-2vS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Uk6-8W-fp1"/>
-                            <constraint firstItem="l2c-AA-OhR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-50" id="aTS-gn-2hd"/>
+                            <constraint firstItem="l2c-AA-OhR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aTS-gn-2hd"/>
                             <constraint firstItem="sXH-cQ-dI6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cGD-zm-e1A"/>
                             <constraint firstItem="l2c-AA-OhR" firstAttribute="bottom" secondItem="amY-sB-60Z" secondAttribute="top" id="el4-iF-Gvb"/>
                             <constraint firstItem="rXC-5y-O0q" firstAttribute="top" secondItem="sXH-cQ-dI6" secondAttribute="bottom" constant="44" id="fpv-ga-sYx"/>
                             <constraint firstItem="amY-sB-60Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hHf-3J-erg"/>
-                            <constraint firstItem="l2c-AA-OhR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="izX-WI-7ET"/>
+                            <constraint firstItem="l2c-AA-OhR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="izX-WI-7ET"/>
                             <constraint firstItem="amY-sB-60Z" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jPe-ge-oQd"/>
                             <constraint firstItem="amY-sB-60Z" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lVD-8F-lUZ"/>
                             <constraint firstItem="rXC-5y-O0q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="les-aq-Xde"/>
